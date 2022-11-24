@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+#container {
+    background: url(/images/bg2.jpg);
+    height: 100% !important;
+    width: 100% !important;
+}
+#logo {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    /* background-color: rgb(178, 193, 190); */
+    color: rgb(242, 0, 255);
+}
+/* logo start style  */
+
+/* #one {
+    color: rgb(0, 233, 250);
+}
+#two {
+    color: rgb(0, 233, 250);
+}
+#three {
+    color: rgb(0, 233, 250);
+} */
+/* logo close style  */
+
+#container,
+a {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+#container,
+a:hover {
+    background-color: rgb(178, 193, 190);
+    text-decoration: aqua;
+}
+
+.crousal_img {
+    height: 60vh !important;
+    width: 100% !important;
+}
+
+.about_crousal_img {
+    height: 50vh !important;
+    width: 100% !important;
+}
+.card-img {
+    height: 50vh !important;
+    width: 70vh !important;
+}
+#row {
+    background-image: url(/images/nav2.jpg) !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card-text {
+    font-size: 1.5rem !important;
+    text-align: justify;
+}
+
+.p_card {
+    font-size: 1.1rem !important;
+    text-align: justify !important;
+}
+.image_glass {
+    height: 80vh !important;
+}
+
+.card_img_4 {
+    width: 100% !important;
+}
+
+.bg-light {
+    background-color: rgb(255, 38, 179) !important;
+}
+
+.footer_navabr {
+    align-items: left !important;
+    text-align: center !important;
+    margin-left: 400px;
+    height: 60px;
+}
+
+#footer_img {
+    height: 30vh !important;
+    width: 100% !important;
+    /* background: url(/images/footer_img.jpg); */
+
+    background-image: url(/images/tea1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+}
+/* 
+#content {
+    background: rgb(219, 103, 237);
+} */
+
+@media screen and (max-width: 700px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+    #container {
+        background: url(/images/nav_new.jpg);
+    }
+    #container,
+    a {
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    #logo {
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Roboto Slab', serif;
+        /* background-color: rgb(178, 193, 190); */
+        color: rgb(255, 0, 204);
+    }
+    #row {
+        background-image: url(/images/logo.jpg) !important;
+        background-size: 100%;
+    }
+
+    .crousal_img {
+        height: 30vh !important;
+        width: 100% !important;
+    }
+
+    .card-img {
+        height: 40vh !important;
+        width: 100% !important;
+    }
+
+    .about_crousal_img {
+        height: 20vh !important;
+        width: 100% !important;
+    }
+    .card-text {
+        font-size: 1.2rem !important;
+        text-align: justify;
+    }
+
+    .bg-light {
+        background-color: rgb(255, 38, 179) !important;
+    }
+
+    .footer_navabr {
+        align-items: left !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+        height: 50px;
+        width: 100%;
+    }
+
+    .p_card {
+        font-size: 1.1rem !important;
+        text-align: justify !important;
+    }
+    #footer_img {
+        height: 7vh !important;
+        width: 100% !important;
+        /* background: url(/images/footer_img.jpg); */
+
+        background-image: url(/images/nav1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 0 0 2000px rgba(0, 102, 255, 0.3);
+    }
+}
